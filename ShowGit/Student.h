@@ -14,5 +14,6 @@
 
 - (void) sayHi;
 
+- (void) sayHello;
 
 @end
