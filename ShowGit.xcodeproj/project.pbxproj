@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		836BED201BF7844800BB4E73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 836BED1F1BF7844800BB4E73 /* main.m */; };
 		836BED2A1BF78EB400BB4E73 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 836BED291BF78EB400BB4E73 /* Person.m */; };
+		836BED321BF7918E00BB4E73 /* PersonTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 836BED311BF7918E00BB4E73 /* PersonTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		836BED1F1BF7844800BB4E73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		836BED281BF78E1000BB4E73 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		836BED291BF78EB400BB4E73 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		836BED2B1BF7902000BB4E73 /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		836BED311BF7918E00BB4E73 /* PersonTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +66,19 @@
 				836BED1F1BF7844800BB4E73 /* main.m */,
 				836BED281BF78E1000BB4E73 /* Person.h */,
 				836BED291BF78EB400BB4E73 /* Person.m */,
+				836BED2B1BF7902000BB4E73 /* Student.h */,
+				836BED2C1BF790CF00BB4E73 /* test */,
 			);
 			path = ShowGit;
+			sourceTree = "<group>";
+		};
+		836BED2C1BF790CF00BB4E73 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				836BED311BF7918E00BB4E73 /* PersonTest.m */,
+			);
+			name = test;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +139,7 @@
 			files = (
 				836BED2A1BF78EB400BB4E73 /* Person.m in Sources */,
 				836BED201BF7844800BB4E73 /* main.m in Sources */,
+				836BED321BF7918E00BB4E73 /* PersonTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
