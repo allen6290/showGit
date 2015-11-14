@@ -12,6 +12,6 @@
 @interface Person : NSObject
 
 
-
+- (void) sayHello:(NSString *) str;
 
 @end
