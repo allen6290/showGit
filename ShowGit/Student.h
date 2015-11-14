@@ -12,5 +12,7 @@
 @interface Student : Person
 
 
+- (void) sayHi;
+
 
 @end
