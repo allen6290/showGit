@@ -7,3 +7,12 @@
 //
 
 
+#import <Foundation/Foundation.h>
+
+@interface Student : Person
+
+
+- (void) sayHi;
+
+
+@end
